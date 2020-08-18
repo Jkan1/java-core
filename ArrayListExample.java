@@ -22,6 +22,11 @@ public class ArrayListExample {
 
         System.out.println(aList);
         aList.remove(3);
+        aList.add(3, 8);
+        aList.set(3, aList.get(3) / 2);
+        aList.remove(3);        
+//        aList.remove(new Integer(4));
+
         System.out.println(aList);
 
         for (int item : aList) {
